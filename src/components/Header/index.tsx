@@ -1,14 +1,33 @@
 import styles from '@styles/components/Header.module.scss';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { RiCloseLine, RiEyeCloseLine, RiMenuLine, RiSteeringLine } from "react-icons/ri";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
+  const [scrollY, setScrollY] = useState(false);
+  const [activeLink, setActiveLink] = useState('');
+
+  function handleSetActiveLink(link: string) {
+    setActiveLink(link);
+    setShowMenu(false);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 50) {
+        setScrollY(true);
+      } else {
+        setScrollY(false);
+      }
+    })
+  }, []);
+
+
 
 
   return (
-    <header className={styles.header} id="header">
+    <header className={`${styles.header} ${scrollY ? styles.scroll : ''}`} id="header">
       <div className={`${styles.nav} container`}>
         <a href="#" className={styles.nav__logo}>
           <RiSteeringLine />

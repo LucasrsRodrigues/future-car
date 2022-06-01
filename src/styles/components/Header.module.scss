@@ -6,6 +6,12 @@
   left: 0;
   z-index: var(--z-fixed);
 
+  &.scroll {
+    border-radius: 0 0 1rem 1rem;
+    background-color: var(--body-color);
+    box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
+  }
+
   .nav {
     height: var(--header-height);
     display: flex;
