@@ -26,7 +26,7 @@ function About() {
             new and innovative platforms that last a long time.
           </p>
 
-          <a href="#" className={styles.button}>Know more</a>
+          <a href="#" className="button">Know more</a>
         </div>
       </div>
     </section >
