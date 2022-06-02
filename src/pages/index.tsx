@@ -8,6 +8,7 @@ import { Popular } from '@components/Popular';
 
 import 'swiper/css';
 import { Features } from '@components/Features';
+import { Featured } from '@components/Featured';
 
 const DefaultPage: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const DefaultPage: NextPage = () => {
         <About />
         <Popular />
         <Features />
+        <Featured />
       </main>
     </Fragment>
   )
