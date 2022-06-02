@@ -10,6 +10,7 @@ import 'swiper/css';
 import { Features } from '@components/Features';
 import { Featured } from '@components/Featured';
 import { Offer } from '@components/Offer';
+import { Logos } from '@components/Logos';
 
 const DefaultPage: NextPage = () => {
   return (
@@ -23,6 +24,7 @@ const DefaultPage: NextPage = () => {
         <Features />
         <Featured />
         <Offer />
+        <Logos />
       </main>
     </Fragment>
   )
