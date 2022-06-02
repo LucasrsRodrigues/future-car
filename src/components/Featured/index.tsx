@@ -84,10 +84,6 @@ function Featured() {
                 layout
                 key={feature.id}
                 className={styles.featured__card}
-
-                data-aos="fade-down"
-                data-aos-duration="2500"
-                data-aos-delay="600"
               >
                 <div className={`shape shape__smaller ${styles.shapeSmall}`}></div>
 
