@@ -89,3 +89,51 @@
     color: var(--text-color-light);
   }
 }
+
+@media screen and (min-width: 767px) {
+  .footer {
+    .footer__container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .footer {
+
+    .footer__container {
+      grid-template-columns: repeat(4, max-content);
+      justify-content: space-between;
+
+      .footer__content {
+        .footer__logo {
+          column-gap: .5rem;
+
+          svg {
+            font-size: 2rem;
+          }
+        }
+
+        .footer__title {
+          margin-bottom: 1.5rem;
+        }
+
+        .footer__links {
+          row-gap: .75rem;
+
+        }
+
+        .footer__social {
+          font-size: 1.5rem;
+
+        }
+      }
+
+    }
+
+    .footer__copy {
+      margin-top: 8rem;
+      padding-bottom: 1rem;
+    }
+  }
+}

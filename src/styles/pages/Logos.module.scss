@@ -28,3 +28,31 @@
 //     }
 //   }
 // }
+
+@media screen and (max-width: 320px) {
+  .logos__container {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .logos {
+    .logos__container {
+      gap: 4rem 8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .logos {
+    .logos__container {
+      .logos__content {
+        grid-template-columns: repeat(6, max-content);
+
+        .logos_img {
+          width: 50px;
+        }
+      }
+    }
+  }
+}

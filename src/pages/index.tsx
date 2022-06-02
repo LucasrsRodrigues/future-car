@@ -12,6 +12,7 @@ import { Featured } from '@components/Featured';
 import { Offer } from '@components/Offer';
 import { Logos } from '@components/Logos';
 import { Footer } from '@components/Footer';
+import { Scrollup } from '@components/Scrollup';
 
 const DefaultPage: NextPage = () => {
   return (
@@ -29,6 +30,8 @@ const DefaultPage: NextPage = () => {
       </main>
 
       <Footer />
+
+      <Scrollup />
     </Fragment>
   )
 }

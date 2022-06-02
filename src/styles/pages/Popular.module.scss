@@ -117,3 +117,25 @@
 //     }
 //   }
 // }
+
+@media screen and (min-width: 1040px) {
+  .popular {
+    .popular__container {
+      width: 875px;
+      padding-top: 3rem;
+
+      >div {
+        .popular__card {
+          width: 258px;
+          border-radius: 1.25rem;
+          margin-bottom: 5rem;
+
+          .popular__img {
+            width: 180px;
+            margin: .75rem 0 1 1.25rem 2rem;
+          }
+        }
+      }
+    }
+  }
+}

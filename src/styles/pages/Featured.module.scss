@@ -120,3 +120,41 @@
     }
   }
 }
+
+@media screen and (min-width: 576px) {
+  .featured {
+    .featured__container {
+      .featured__content {
+        grid-template-columns: repeat(2, 228px);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .featured {
+    .featured__container {
+      padding-bottom: 2.5rem;
+
+      .featured__filters {
+        column-gap: 2rem;
+        margin-bottom: 4.5rem;
+
+        .featured__item {
+          width: 52px;
+          height: 52px;
+
+          img {
+            width: 2rem;
+          }
+        }
+      }
+
+      .featured__content {
+        grid-template-columns: repeat(3, 248px);
+        gap: 4rem;
+      }
+    }
+
+  }
+}

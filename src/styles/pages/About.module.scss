@@ -66,3 +66,69 @@
 //     }
 //   }
 // }
+
+@media screen and (max-width: 320px) {
+
+  .about {
+    .about__container {
+      .about__group {
+        .about__card {
+          width: 150px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: 576px) {
+
+  .about {
+    .about__container {
+      .about__group {
+        width: 350px;
+        justify-self: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .about {
+    .about__container {
+      grid-template-columns: repeat(2, 1fr);
+
+    }
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .about {
+    .about__container {
+      column-gap: 6rem;
+      align-items: center;
+
+      .about__group {
+        width: 480px;
+
+        .about__img {
+          width: 480px;
+        }
+
+        .about__card {
+          width: 198px;
+          padding: 1rem 1.25rem;
+        }
+      }
+
+      .about_data {
+
+        .about_description {
+          padding-right: 4rem;
+          margin-bottom: 3rem;
+        }
+
+      }
+    }
+  }
+}

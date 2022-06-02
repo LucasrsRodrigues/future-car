@@ -130,6 +130,37 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .home__car {
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .home {
+    .home__container {
+      padding-top: 2rem;
+
+      .home__img {
+        width: 380px;
+      }
+
+      .home__car {
+        column-gap: 7rem;
+
+        .home__carData {
+          .home__carIcon {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+
+          }
+        }
+      }
+
+    }
+  }
+}
+
 // .home {
 //   .home__container {
 //     .home__data {
