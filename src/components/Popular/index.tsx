@@ -21,7 +21,7 @@ function Popular() {
         Choose Your Electric Car <br /> Of The Porsche Brand
       </h2>
 
-      <div className={`${styles.popular__container} container`}>
+      <div className={`${styles.popular__container} container`} data-aos="fade-down" data-aos-duration="2100" data-aos-delay="400">
         <Swiper
           loop={true}
           spaceBetween={24}

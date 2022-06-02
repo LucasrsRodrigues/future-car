@@ -46,7 +46,7 @@ function Featured() {
 
       <div className={`${styles.featured__container} container`}>
 
-        <ul className={styles.featured__filters}>
+        <ul className={styles.featured__filters} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
 
           <li>
             <button className={`${styles.featured__item} ${activeOption === 'all' ? styles.active : ''}`} onClick={() => { setOptionActive('all') }}>
@@ -84,6 +84,10 @@ function Featured() {
                 layout
                 key={feature.id}
                 className={styles.featured__card}
+
+                data-aos="fade-down"
+                data-aos-duration="2500"
+                data-aos-delay="600"
               >
                 <div className={`shape shape__smaller ${styles.shapeSmall}`}></div>
 

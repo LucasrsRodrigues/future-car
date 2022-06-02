@@ -4,22 +4,22 @@ function Logos() {
   return (
     <section className={`${styles.logos} section`}>
       <div className={`${styles.logos__container} container grid`}>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo1.png" alt="" className={styles.logos__img} />
         </div>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo2.png" alt="" className={styles.logos__img} />
         </div>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo3.png" alt="" className={styles.logos__img} />
         </div>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo4.png" alt="" className={styles.logos__img} />
         </div>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo5.png" alt="" className={styles.logos__img} />
         </div>
-        <div className={styles.logos__content}>
+        <div className={styles.logos__content} data-aos="fade-down" data-aos-duration="2500" data-aos-delay="600">
           <img src="assets/img/logo6.png" alt="" className={styles.logos__img} />
         </div>
       </div>

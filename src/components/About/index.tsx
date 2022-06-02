@@ -4,7 +4,7 @@ function About() {
   return (
     <section className={`${styles.about} section`} id="about" >
       <div className={`${styles.about__container} container grid`}>
-        <div className={styles.about__group}>
+        <div className={styles.about__group} data-aos="fade-right" data-aos-duration="2500" data-aos-delay="400">
           <img src="assets/img/about.png" alt="" className={styles.about__img} />
 
           <div className={styles.about__card}>
@@ -15,7 +15,7 @@ function About() {
           </div>
         </div>
 
-        <div className={styles.about__data}>
+        <div className={styles.about__data} data-aos="fade-left" data-aos-duration="2500" data-aos-delay="400">
           <h2 className={`${styles.about__title} section__title`}>
             Machines With <br /> Future Technoogy
           </h2>

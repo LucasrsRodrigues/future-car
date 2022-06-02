@@ -6,7 +6,7 @@ function Offer() {
       <div className={`${styles.offer__container} container grid`}>
         <img src="assets/img/offer-bg.png" alt="" className={styles.offer__bg} />
 
-        <div className={styles.offer__data}>
+        <div className={styles.offer__data} data-aos="fade-right" data-aos-duration="2500" data-aos-delay="400">
           <h2 className={`section__title ${styles.offer__title}`}>
             Do You Want To Receive <br /> Special Offers?
           </h2>
@@ -22,7 +22,7 @@ function Offer() {
           </a>
         </div>
 
-        <img src="assets/img/offer.png" alt="" className={styles.offer__img} />
+        <img src="assets/img/offer.png" alt="" className={styles.offer__img} data-aos="fade-left" data-aos-duration="2500" data-aos-delay="400" />
       </div>
     </section>
   )
